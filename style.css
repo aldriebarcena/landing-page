@@ -134,8 +134,38 @@ body {
     padding: 200px;
     background-color: white;
     color: white;
-
 }
+    .fourth-container {
+        background-color: #3882f6;
+        padding: 60px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+   
+    }
+        .calltoaction {
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .call-caption {
+            font-weight: lighter;
+            font-size: 20px
+        }
+        .signup2 {
+            background-color: transparent;
+            color: white;
+            padding: 0px 30px;
+            border-color: #e5e7eb;
+            border-radius: 8px;
+            box-shadow: none;
+            font-size: 20px;
+            margin-right: 200px;
+  
+        }
+        .call-container {
+            margin-left: 200px
+        }
+    
 
 .footer {
     padding: 25px;
@@ -143,4 +173,15 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
+
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 10px;
+
 }
