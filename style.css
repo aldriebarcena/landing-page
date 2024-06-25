@@ -1,0 +1,162 @@
+
+
+/* BACKGROUND COLORS */
+.header,
+.footer,
+.content-1 {
+  background-color: #1F2937;
+}
+
+.header, .footer, .content-1, .content-2,
+.content-3, .content-4 {
+  padding: 0px 100px;
+}
+
+/* BODY LAYOUT */
+.content-2, .content-4 {
+  background-color: white;
+}
+
+.content-3 {
+  background-color: #E5E7EB;
+}
+
+body {
+  display: flex;
+  height: 1500px;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header,
+.footer {
+  height: 75px;
+}
+
+.content-1,
+.content-2,
+.content-3,
+.content-4 {
+  flex: 1;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.header-links ul {
+  display: flex;
+  gap: 8px;
+}
+
+a {
+  color: #F9FAF8;
+  text-decoration: none;
+  font-weight:lighter;
+}
+
+/* CONTENT 1 */
+
+.content-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.one-img-placeholder {
+  background-color: #E5E7EB;
+  height: 230px;
+  width: 600px;
+}
+
+.one-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 16px
+}
+
+.one-left-title {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+  width: 400px
+}
+
+.one-left-description {
+  color: #F9FAF8;
+  text-decoration: none;
+  font-weight:lighter;
+}
+
+.one-left-button {
+  width: 100px;
+  height: 30px;
+  color: #F9FAF8;
+  background-color: #3882F8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* CONTENT 2 */
+
+.content-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.two-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.two-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.two-box {
+  height: 150px;
+  width: 150px;
+  border: solid;
+  border-color: #3882F8;
+  border-width: 4px;
+  border-radius: 10px
+}
+
+.two-box-caption {
+  width: 150px;
+  text-align: center;
+}
+
+.two-box-container {
+  display: flex;
+  gap: 60px;
+}
+
