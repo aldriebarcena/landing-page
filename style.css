@@ -70,7 +70,7 @@ a {
 
 .content-1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -135,9 +135,10 @@ a {
 .two-content-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 
@@ -158,5 +159,84 @@ a {
 .two-box-container {
   display: flex;
   gap: 60px;
+}
+
+/* CONTENT 3 */
+
+.content-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.three-quote-container {
+  display: flex;
+  width: 700px;
+  flex-direction: column;
+  gap: 10px
+}
+
+.three-quote-text {
+  font-size: 26px;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 40px;
+}
+
+.three-quote-author {
+  text-align: right;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+/* CONTENT 4 */
+
+.content-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four-CTA-container {
+  background-color: #3882F8;
+  width: 200vh;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 500px;
+  border-radius: 10px;
+  padding: 0 100px;
+}
+
+.four-CTA-title {
+  font-size: 20px;
+  color: #F9FAF8;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.four-CTA-description {
+  font-size: 16px;
+  color: #F9FAF8;
+  font-weight: lighter;
+}
+
+.four-CTA-button {
+  background-color: #3882F8;
+  border-color: #F9FAF8;
+  border-style: solid;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #F9FAF8;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F9FAF8;
+  font-weight: lighter;
 }
 
